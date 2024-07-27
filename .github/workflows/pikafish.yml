@@ -23,7 +23,7 @@ jobs:
             shell: msys2 {0}
             ext: .exe
             sde: /d/a/PikafishFork/PikafishFork/.output/sde-temp-files/sde-external-9.27.0-2023-09-13-win/sde.exe -future --
-        arch: ["-bmi2"]
+        arch: ["-vnni512"]
         exclude:
           - arch: -bmi2
             config: {os: macos-latest}
